@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Time Machine</title>
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="style.css?v=t4m2c9">
+</head>
+<body>
+    <div class="time-machine-container">
+        <!-- Background Layer -->
+        <div class="background-image" style="background-image: url('https://skoop-dev-code-agent.s3.us-east-1.amazonaws.com/skoop-n8n-continue%2Faigen-1775724702475%2Fassets%2Ftime_machine_bg-1775724855431.png');"></div>
+        <div class="vignette"></div>
+
+        <!-- UI Overlays -->
+        <div class="dashboard">
+            <!-- Digital Date/Time -->
+            <div class="date-panel">
+                <div class="panel-label">DESTINATION DATE</div>
+                <div class="digital-readout" id="current-date-readout">
+                    <span class="month">---</span>
+                    <span class="day">--</span>
+                    <span class="year">----</span>
+                </div>
+            </div>
+
+            <!-- Main Display Area -->
+            <div class="display-portal">
+                <div class="scanline"></div>
+                <div class="content-wrapper" id="event-content">
+                    <div class="loading-spinner">Initializing Time Flux...</div>
+                </div>
+            </div>
+
+            <!-- Footer Stats -->
+            <div class="stats-panel">
+                <div class="stat-item">
+                    <span class="label">ENERGY:</span>
+                    <span class="value">1.21 GW</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">STATUS:</span>
+                    <span class="value pulse">SYNCHRONIZED</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=t4m2c9"></script>
+</body>
+</html>
